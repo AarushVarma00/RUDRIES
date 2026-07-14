@@ -38,7 +38,7 @@
         <hr>
 
         <ul>
-            <li><a href="#">SETTING</a></li>  <!--SETTINGS-->
+            <li><a href="#">SETTINGS</a></li>  <!--SETTINGS-->
         </ul>
 
 </nav>
@@ -49,21 +49,20 @@
 <!-- THIS IS THE MAIN BLOCK -->
 <main>
     <h2>HOME</h2>
-        <p>
-        Good morning, sir
-        </p>
-        <p>
-        How may I help you today
-        </p>
+    <section>
+        <p>Good morning, sir</p>
+        <p>How may I help you today?</p>
+    </section>
+        
     <hr>
 
     <section>
 
         <h3>RECENT NOTES</h3>
             <ul>
-                <li>JAVA CLASS</li>
-                <li>DBMS CLASS</li>
-                <li>WEB DEV</li>
+                <li><button>JAVA CLASS</button></li>
+                <li><button>DBMS CLASS</button></li>
+                <li><button>WEB DEV</button></li>
             </ul>
             <a href="#">OPEN NOTES &rarr;</a>   <!--NOTES-->
     
@@ -85,9 +84,9 @@
     <section>
         <h3>RECENT FILES</h3>
             <ul>
-                <li>project.plan</li>
-                <li>course.list</li>
-                <li>certificate.genai</li>
+                <li><button>project.plan</button></li>
+                <li><button>course.list</button></li>
+                <li><button>certificate.genai</button></li>
             </ul>
             <a href="#">OPEN FILES &rarr;</a>   <!--FILES-->
 
@@ -95,7 +94,7 @@
 
     <section>
 
-        <h3>QUICK ACTION</h3>
+        <h3>QUICK ACTIONS</h3>
             <ul>
                 <li><button>New Note</button></li>
                 <li><button>Upload File</button></li>
@@ -105,14 +104,23 @@
     </section>
 
     <section>
-
         <h3>RUDRIES STATUS</h3>
-            <p>MODE : OFFLINE</p>
-            <p>Internet : Disconnected</p>
-            <p>AI Engine : Standby</p>
-            <p>Last Sync : Yesterday</p>
-            <a href="#">SETTINGS &rarr;</a>    <!--SETTING-->
+
+        <dl>
+            <dt>Mode</dt>
+            <dd>Offline</dd>
+
+            <dt>Internet</dt>
+            <dd>Disconnected</dd>
+
+            <dt>AI Engine</dt>
+            <dd>Standby</dd>
+
+            <dt>Last Sync</dt>
+            <dd>Yesterday</dd>
+        </dl>    
     
+        <a href="#">SETTINGS &rarr;</a>
     </section>
 
     

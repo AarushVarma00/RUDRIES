@@ -43,57 +43,61 @@
 
 <!-- THIS IS THE MAIN CONTENT AREA -->
 <main>
-        <h2>SETTINGS</h2>
+    
+<h2>SETTINGS</h2>
+<form>
+        
 
+        <section>
             <h3>GENERAL</h3>
 
-                <h4>USER NAME</h4>
-                    <label for="username">User Name</label>
+                <label for="username">User Name</label>
                     <input type="text" id="username" value="Aarush">
 
-                <h4>LANGUAGE</h4>
-                    <label for="language">Language</label>
+                <label for="language">Language</label>
                     <select id="language">
                         <option>English</option>
                     </select>
 
-                <h4>THEME</h4>
-                    <label for="theme">Theme</label>
+                <label for="theme">Theme</label>
                     <select id="theme">
                         <option>Light</option>
                         <option>Dark</option>
                     </select>
+        </section>
 
+        <section>
             <h3>RUDRIES</h3>
 
-                <h4>Mode</h4>
                     <label for="mode">Mode</label>
                     <select id="mode">
-                        <option>Light</option>
-                        <option>Dark</option>
+                        <option>Offline</option>
+                        <option>Online</option>
                     </select>
 
-                <h4>Voice-to-Text</h4>
                     <label for="voice">Voice-to-Text</label>
                     <select id="voice">
                     <option>Enabled</option>
                     <option>Disabled</option>
                     </select>
-            
+        </section>
+
+        <section>   
             <h3>STORAGE</h3>
 
-                <h4>Storage Mode</h4>
-                    <label for="storage">Storage Location</label>
+                    <label for="storage">Storage Mode</label>
                     <select id="storage">
                         <option>Local</option>
                         <option>Cloud</option>
                     </select>
                 
-                <h4>Data Location</h4>
                     <label for="data">Data Location</label>
                     <input type="text" id="data" value='Not Configured'>
+        </section>
     
-
+    <button type="submit">Save Settings</button>
+    
+</form>
 </main>
 
 <!-- FOOTER -->

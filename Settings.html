@@ -48,52 +48,58 @@
 <form>
         
 
-        <section>
-            <h3>GENERAL</h3>
+        <fieldset>
+            <legend>GENERAL</legend>
 
                 <label for="username">User Name</label>
-                    <input type="text" id="username" value="Aarush">
+                   <input type="text" id="username" name="username" value="Aarush">
 
                 <label for="language">Language</label>
-                    <select id="language">
-                        <option>English</option>
+                    <select id="language" name="language">
+                        <option value="english">English</option>
                     </select>
 
                 <label for="theme">Theme</label>
-                    <select id="theme">
-                        <option>Light</option>
-                        <option>Dark</option>
+                    <select id="theme" name="theme">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
                     </select>
-        </section>
+        </fieldset>
 
-        <section>
-            <h3>RUDRIES</h3>
+        <fieldset>
+            <legend>RUDRIES</legend>
 
                     <label for="mode">Mode</label>
-                    <select id="mode">
-                        <option>Offline</option>
-                        <option>Online</option>
+                    <select id="mode" name="mode">
+                        <option value="offline">Offline</option>
+                        <option value="online">Online</option>
                     </select>
 
                     <label for="voice">Voice-to-Text</label>
-                    <select id="voice">
-                    <option>Enabled</option>
-                    <option>Disabled</option>
+                    <select id="voice" name="voice">
+                    <option value="enabled">Enabled</option>
+                    <option value="disabled">Disabled</option>
                     </select>
-        </section>
+        </fieldset>
 
-        <section>   
-            <h3>STORAGE</h3>
+        <fieldset>   
+            <legend>STORAGE</legend>
 
                     <label for="storage">Storage Mode</label>
-                    <select id="storage">
-                        <option>Local</option>
-                        <option>Cloud</option>
+                    <select id="storage" name="storage">
+                        <option value="local">Local</option>
+                        <option value="cloud">Cloud</option>
                     </select>
                 
                     <label for="data">Data Location</label>
-                    <input type="text" id="data" value='Not Configured'>
-        </section>
+                    <input
+                        type="text"
+                        id="data"
+                        name="data"
+                        value="Not Configured"
+                        readonly
+                    >
+        </fieldset>
     
     <button type="submit">Save Settings</button>
     

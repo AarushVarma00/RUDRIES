@@ -1,0 +1,34 @@
+body {
+    background-color: #1A0F2E;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1A0F2E;
+}
+h1{
+    color: #c4b3e4;
+}
+p{
+    color: #c4b3e4;
+}
+
+
+nav {
+    background-color: #1A0F2E;
+    h2{
+        color: #c4b3e4;
+    }
+    /* padding: 10px; */
+    /* style="width: 200px; height: 505px; border: 1.5px solid black; background-color: white; padding: 10px;" */
+
+        li{
+            button{
+                background-color: #1A0F2E;
+                color: #c4b3e4;
+            }
+            color: #c4b3e4;
+        }
+
+}
